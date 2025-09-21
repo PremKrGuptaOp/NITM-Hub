@@ -56,7 +56,7 @@ const validateUserRegistration = [
   body('gender')
     .isIn(['Male', 'Female', 'Other'])
     .withMessage('Invalid gender selection')
-];
+]; 
 
 const validateUserLogin = [
   body('email')
